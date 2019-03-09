@@ -12,6 +12,11 @@ ro-opacity ro-scale ro-from-right ro-from-left
 
 ## 
 你可以结合animate.css使用 做出酷炫的出场效果
+
+
+## demo
+npm install roll-page --S
+
 ## Build Setup
 
 ``` bash
