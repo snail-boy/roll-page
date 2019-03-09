@@ -1,0 +1,83 @@
+
+
+.roll-page-list li .ro-from-left {
+  opacity: 0;
+  animation: move 1s forwards;
+  animation-play-state: paused;
+  transform: translate(-100%)
+}
+.roll-page-list .move .ro-from-left {
+  animation-play-state: running;
+}
+@keyframes move {
+  from {
+    opacity: 1;
+    transform: translate(-100%)
+  }
+  to {
+    opacity: 1;
+    transform: translate(0)
+  }
+}
+
+
+.roll-page-list li .ro-from-right {
+  opacity: 1;
+  animation: ro-from-right 1s forwards;
+  animation-play-state: paused;
+  transform: translate(100%)
+}
+.roll-page-list .move .ro-from-right {
+  animation-play-state: running;
+}
+@keyframes ro-from-right {
+  from {
+    opacity: 0;
+    transform: translate(100%)
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px)
+  }
+}
+
+
+
+.roll-page-list li .ro-scale {
+  opacity: 0;
+  animation: ro-scale 1s forwards;
+  animation-play-state: paused;
+  transform: scale(0);
+}
+.roll-page-list .move .ro-scale {
+  animation-play-state: running;
+}
+@keyframes ro-scale {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+.roll-page-list li .ro-opacity {
+  opacity: 0;
+  animation: ro-opacity 2s forwards;
+  animation-play-state: paused;
+}
+.roll-page-list .move .ro-opacity {
+  animation-play-state: running;
+}
+@keyframes ro-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
