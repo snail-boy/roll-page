@@ -2,6 +2,16 @@
 
 > A Vue.js project
 
+rollPage 解决了长文本信息页滚动到当前页面显示动画的插件
+##
+你可以设置要显示元素距离页面可视区域底部多远执行动画
+##
+你可以使用内置样式但必须和示例dom结构一样
+##
+ro-opacity ro-scale ro-from-right ro-from-left
+
+## 
+你可以结合animate.css使用 做出酷炫的出场效果
 ## Build Setup
 
 ``` bash

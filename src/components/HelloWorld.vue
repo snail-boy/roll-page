@@ -1,5 +1,7 @@
 <template>
-    <roll-page>
+    <roll-page 
+    :delayDis="600"
+    >
       <div class="roll-page-con">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>
       <ul class="roll-page-list">
         <li class="roll-item">

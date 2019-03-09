@@ -26,6 +26,7 @@
     },
     mounted() {
       this.dom()
+      console.log(this.delayDis)
     },
     methods: {
       dom() {
