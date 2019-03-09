@@ -23,6 +23,7 @@ import rollPage from './plugins';
 Vue.use(rollPage)
 
 组件里引用
+tagv3.0
 <roll-page></roll-page>
 
 ## Build Setup
