@@ -15,6 +15,10 @@
       delayDis: {
         type: Number,
         default: 300
+      },
+      animated: {
+        type: String,
+        default: ''
       }
     },
     data() {
@@ -57,6 +61,7 @@
       removeClass(self) {
         let classVal = self.getAttribute("class");
         classVal = classVal.replace(" move", '');
+
         self.setAttribute("class", classVal)
       }
     }

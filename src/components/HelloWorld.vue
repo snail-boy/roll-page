@@ -1,13 +1,14 @@
 <template>
     <roll-page 
     :delayDis="600"
+    animated="animated"
     >
       <div class="roll-page-con">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>
       <ul class="roll-page-list">
         <li class="roll-item">
           <div class="flex-sb">
-            <div class="animated">left</div>
-            <div class="animated rotateInDownRight">right</div>
+            <div class="flip">left</div>
+            <div class="rotateInDownRight">right</div>
           </div>
         </li>
         <li class="roll-item">
@@ -75,6 +76,8 @@ export default {
     height: 800px;
     border-bottom: 1px solid green;
   }
+
+
 
 
 
