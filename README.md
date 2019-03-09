@@ -18,6 +18,13 @@ ro-opacity ro-scale ro-from-right ro-from-left
 ## demo
 npm install roll-page --S
 
+main.js 里写
+import rollPage from './plugins';
+Vue.use(rollPage)
+
+组件里引用
+<roll-page></roll-page>
+
 ## Build Setup
 
 ``` bash
