@@ -1,26 +1,19 @@
 <template>
     <roll-page 
     :delayDis="600"
-    animated="animated"
     >
       <div class="roll-page-con">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>
       <ul class="roll-page-list">
         <li class="roll-item">
           <div class="flex-sb">
-            <div class="flip">left</div>
-            <div class="rotateInDownRight">right</div>
-          </div>
-        </li>
-        <li class="roll-item">
-          <div class="flex-sb">
-            <div class="ro-scale">放大</div>
+            <div class="ro-from-left">left</div>
             <div class="ro-from-right">right</div>
           </div>
         </li>
         <li class="roll-item">
           <div class="flex-sb">
-            <div class="ro-from-left">left</div>
-            <div class="ro-opacity">opacity</div>
+            <div class="ro-scale">放大</div>
+            <div class="ro-opacity">opacity</div>            
           </div>
         </li>
       </ul>

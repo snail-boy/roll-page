@@ -3,8 +3,9 @@
 
 > A Vue.js project
 
-rollPage 解决了长文本信息页滚动到当前页面显示动画的插件
+rollPage 解决了长文本信息页滚动到当前位置页面显示动画的插件
 ##
+delayDis
 你可以设置要显示元素距离页面可视区域底部多远执行动画
 ##
 你可以使用内置样式但必须和示例dom结构一样
@@ -19,7 +20,7 @@ ro-opacity ro-scale ro-from-right ro-from-left
 npm install roll-page --S
 
 main.js 里写
-import rollPage from './plugins';
+import rollPage from 'roll-page';
 Vue.use(rollPage)
 
 组件里引用
